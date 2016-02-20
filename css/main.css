@@ -1,0 +1,105 @@
+.area {
+fill: lightsteelblue;
+stroke-width: 0;
+opacity: 0.8;
+}
+
+.area2 {
+fill: steelblue;
+stroke-width: 0;
+opacity: 0.9;
+}
+
+body {
+  font: 11px sans-serif;
+}
+
+.axis line,
+.axis text {
+  font: 11px sans-serif;
+}
+
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 60px;
+	height: 28px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: lightsteelblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.slider {
+	width: 800px;
+	margin-left: 500px;
+}
+
+.rect1, .rect2 {
+	fill: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center; 
+}
+
+.frame {
+	width: 1800px;
+}
+
+.legend {
+	position: absolute;
+	display: inline;
+	outline-width: 1px;
+	outline-color: black;
+	margin-right: 0px;
+	width: 200px;
+	height: 100px;
+	right: -250px;
+}
+
+#baseBox {
+	background: #bfcfe4;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+}
+
+#summitBox {
+	background: #5089b8;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+}
+
+.boxName {
+	display: inline-block;
+}

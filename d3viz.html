@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/iThing-min.css" type="text/css" />
+<body>
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="lib/jQAllRangeSliders-min.js"></script>
+<script src="lib/d3.v3.min.js"></script>
+<div class="frame">
+	<h1>Cascade Mountain Range Temperature Comparator</h1>
+	<p>Inversions occur when temperatures at higher elevations rise above the temperatures of lower elevations. </br>
+		These phenomena are rare and are not easily tracked by any systems currently. With this visualizaion, you can easily </br>
+		determine where an inversion event has occurred by taking note of where the higher elevation temperatures rise above </br>
+		the lower elevation temperatures. These are found as the darkest saturation areas on each graph.</p>
+
+	<div class="slider"> 
+		<div id="dateSlider"></div>
+	</div>
+
+	<div class="legend">
+		<div id="baseBox"></div>
+		<div class="boxName">
+			<span>Snoqualmie Pass Base</span>
+		</div>
+		</br>
+		<div id="summitBox"></div>
+		<div class="boxName">
+			<span>Snoqualmie Pass Summit</span>
+		</div>
+	</div>
+</div>
+<script src="lib/d3vis.js"></script>
+</body>
+</html>
+
