@@ -80,10 +80,9 @@ p {
 	display: inline;
 	outline-width: 1px;
 	outline-color: black;
-	margin-right: 0px;
+	margin-left: 1600px;
 	width: 200px;
 	height: 100px;
-	right: -250px;
 }
 
 #baseBox {
